@@ -29,7 +29,7 @@
 }
 .footer-socials {
   display: flex;
-  gap: 24px;
+  gap: 16px;
 }
 .footer .socials-item {
   border-radius: 20px;
