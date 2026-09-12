@@ -1,7 +1,15 @@
 .hero {
+  color: #fff;
   padding: 188px 0;
   background-color: #2e2f42;
-  color: #fff;
+  background-image:
+    linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+    url("../images/hero-bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 .hero-title {
   max-width: 496px;
@@ -29,6 +37,8 @@
   background-color: #4d5ae5;
   border: none;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: background-color;
 }
 .hero-btn:hover,
 .hero-btn:focus {
