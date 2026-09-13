@@ -31,12 +31,12 @@
   display: flex;
   gap: 16px;
 }
-.footer .socials-item {
+.footer .socials-link {
   border-radius: 20px;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition-property: background-color;
 }
-.footer .socials-item:hover,
-.footer .socials-item:focus {
+.footer .socials-link:hover,
+.footer .socials-link:focus {
   background-color: #31d0aa;
 }
